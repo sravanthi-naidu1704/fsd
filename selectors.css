@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.top{
+   color: brown;
+}
+.down{
+    color: chocolate;
+}
+input[type="text"]{
+    height: 20px;
+    width: 50px;
+}
+h1,p,div{
+    margin: 0%;
+    
+
+}
+.parent div{
+    
+    color: brown;
+}
+/*this is child selector*/
+.child>div{
+    font-size: xx-large;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+
+}
+.adjacent ~p{
+    color:orange;
+}
